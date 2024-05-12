@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 public class Rabbit4 {
 
     @Autowired
-    @Qualifier("duck5")
     private Duck5 duck;
 
     @Override
